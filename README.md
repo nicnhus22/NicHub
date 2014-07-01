@@ -1,9 +1,9 @@
 NicHub
 ======
 
-Pure HTML/CSS home page layout I made to practise. I am using Jquery.Waypoint to load components at different moments and that is the only library I used, all the rest was made from sratch.
+Pure HTML/CSS home page layout I made to practise. I am using Jquery.Waypoint to load components at different moments and that is the only library I used, all the rest was made from scratch.
 
-Here are some screen shots (though you are missing the animations)
+Here are some screenshots (though you are missing the animations)
 
 <h3>Home Page Banner</h3>
 =====
