@@ -1,0 +1,81 @@
+@font-face {
+	font-family: 'Museo';
+	src: url("museo.ttf");
+}
+
+
+#sign_up_bloc {
+	position: relative;
+	width: 600px;
+	height:500px;
+	background-color: #fff;
+	margin: auto auto;
+	padding: 50px;
+	box-shadow: 0 0 10px #000;
+	display: none;
+}
+
+.bloc_title {
+	font-family: "Museo", sans-serif;
+	font-size: 1.8rem;
+	color: #000;
+	width: 100%;
+	text-align: center;
+	font-weight: 600;
+}
+
+.lower_bloc_title {
+	font-family: "Museo", sans-serif;
+	font-size: 20px;
+	color: rgba(0,0,0,0.8);
+	width: 100%;
+	text-align: center;
+}
+
+#input_bloc {
+	width: 100%;
+	height: 80%;
+	margin-top: 50px;
+}
+
+#sign_up_bloc input {
+	font-family: inherit;
+	padding: 10px;
+	width: 91%;
+	border-radius: 5px;
+	font-size:20px;
+	margin-bottom: 20px;
+} 
+
+#sign_up_bloc input:focus {
+	-webkit-transition:all 0.5s ease;
+	border: 0 0 10px #00adee;
+	border:2px solid #00adee;
+	outline: none;
+}
+
+#sign_up_bloc button {
+	margin-top: 30px;
+	width: 95%;
+	padding: 10px;
+	border-radius: 5px;
+	font-size:20px;
+	background: #3498db;
+	color: #fff;
+	font-family: inherit;
+}
+
+#sign_up_bloc button:focus {
+	outline: none;
+}
+
+#have_account{
+	width: 100%;
+	text-align: center;
+	font-size: 12px;
+}
+
+.input_name {
+	font-size: 20px;
+	color: #000;
+}

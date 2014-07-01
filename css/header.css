@@ -1,0 +1,64 @@
+@font-face {
+	font-family: 'Simplicity';
+	src: url("simplicity.ttf");
+}
+
+
+#inner_header_bar {
+	position: relative;
+	height: 100%;
+	width: 1000px;
+	margin: auto auto;
+	color: rgba(0,0,0,0.8);
+}
+
+#left_logo {
+	font-size: 40px;
+	font-weight: 900;
+	padding-top:15px; 
+	color: rgba(0,0,0,0.7);
+
+}
+
+#right_nav {
+	position: absolute;
+	top:0;
+	right:0;
+	height: 100%;
+}
+
+#right_nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	height: 100%;
+}
+
+#right_nav ul li {
+	float: left;
+	height: 100%;
+	color:rgba(0,0,0,0.7);
+	text-align: center;
+	padding:0 15px 0 15px;
+	line-height: 75px;
+}
+
+#right_nav ul li:hover {
+	background-color: rgba(0,0,0,0.1);
+}
+
+#sign_up_btn, #signin_back {
+	position: relative;
+	float: left;
+	width: 35%;
+	background-color: #88d8d0;
+	border-bottom: 3px solid #4aa89f;
+}
+
+#sign_in_btn, #signin_continue {
+	position: relative;
+	float: left;
+	width: 35%;
+	background-color: #dd4749;
+	border-bottom: 3px solid #a02a2c;
+}

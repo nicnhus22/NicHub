@@ -1,0 +1,33 @@
+
+#footer {
+	position: relative;
+	overflow: visible;
+	background:#3d3d3e;
+	color:#fff;
+	overflow: auto;
+}
+
+.inner_footer_section {
+	position: relative;
+	width: 700px;
+	margin: auto auto;
+	padding: 50px 0 50px 0;
+	overflow: auto;
+}
+
+.left_col {
+	position: relative;
+	top: 0;left:0;
+	width: 50%;
+	height: 100%;
+	float: left;
+}
+
+.right_col {
+	position: relative;
+	top: 0;right:0;
+	width: 50%;
+	height: 100%;
+	float: right;
+	text-align: right;
+}
